@@ -39,7 +39,7 @@ services:
     ports:
       - '3000:3000'
     volumes:
-      - '.:/petadmin'
+      - '.:/storeadmin'
     volumes_from:
     - box
 
